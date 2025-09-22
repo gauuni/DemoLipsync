@@ -54,7 +54,7 @@ export const UI = () => {
             <Experience />
           </Suspense>
         </Canvas>
-        <div className="bg-gradient-to-b from-transparent to-black/90 absolute bottom-0 top-3/4 left-0 right-0 pointer-events-none z-10">
+        {/* <div className="bg-gradient-to-b from-transparent to-black/90 absolute bottom-0 top-3/4 left-0 right-0 pointer-events-none z-10">
           <div className="bottom-4 fixed z-20 right-4 md:right-15 flex items-center gap-4 animation-delay-1500 animate-fade-in-up opacity-0 ">
             <div className="w-20 h-px bg-white/60"></div>
             <a
@@ -64,7 +64,7 @@ export const UI = () => {
               Learn Three.js & React Three Fiber
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

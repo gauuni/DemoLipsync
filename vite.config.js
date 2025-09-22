@@ -5,14 +5,5 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/DemoLipsync/',
-  resolve: {
-    alias: {
-      "wawa-lipsync": path.resolve(
-        __dirname,
-        "../../packages/wawa-lipsync/src"
-      ),
-    },
-  },
   plugins: [react(), tailwindcss()],
 });
